@@ -1,0 +1,26 @@
+body {
+  font-size: 20px;
+
+  div {
+    color: red;
+
+    p {
+      background-color: royalblue;
+
+      h1 {
+        font-size: 30px;
+
+        h2 {
+          font-size: 20px;
+
+          &:hover {
+            transition: 3s all;
+            color: green;
+            background-color: sienna;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}

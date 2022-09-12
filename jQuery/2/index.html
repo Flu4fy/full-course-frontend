@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input id="input-in" style="float: left" type="text" placeholder="Write the text here. ">
+    <button id="but1" onclick="" style="float: left;">Go</button>
+
+    <input id="input-in2" style="float: left" type="text"  placeholder="Write the text here. ">
+    <button id="but2" onclick="" style="float: left;">Go</button>
+
+
+
+    <br><br>
+
+
+
+    <div id="outport" style="float: left; width: 200px; height: 19px; border: solid 1px grey; color: gray; font-size: 13px; font-weight: 400;padding-right: 2px;">
+    </div>
+
+
+    <div id="outport2" style="float: left; width: 200px; height: 19px; border: solid 1px grey; color: gray; font-size: 13px; font-weight: 400;padding-right: 2px;">
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $("#but1").click(function() {
+				var in1 = $('#input-in').val();
+				$('#outport').html(in1)
+        });
+            
+        $("#but2").click(function() {
+				var in1 = $('#input-in2').val();
+				$('#outport2').html(in1)
+        });
+    </script>
+</body>
+
+</html>

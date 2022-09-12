@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+</head>
+
+<body>
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <a data-fancybox="gallery" href="https://i.pinimg.com/236x/5b/4c/d7/5b4cd730ee8ef917f7e0951112ecf819.jpg">
+        <img src="https://i.pinimg.com/236x/5b/4c/d7/5b4cd730ee8ef917f7e0951112ecf819.jpg" />
+      </a>
+    </div>
+    <div class="item">
+      <a data-fancybox="gallery" href="https://i.pinimg.com/236x/21/58/0d/21580d72758f96e3bc2ca5fd9eec5589.jpg">
+        <img src="https://i.pinimg.com/236x/21/58/0d/21580d72758f96e3bc2ca5fd9eec5589.jpg" />
+    </div>
+    <div class="item">
+      <a data-fancybox="gallery" href="https://i.pinimg.com/236x/94/cc/33/94cc331c2e688885eb6bddf3f2054087.jpg">
+        <img src="https://i.pinimg.com/236x/94/cc/33/94cc331c2e688885eb6bddf3f2054087.jpg" />
+    </div>
+    <div class="item">
+      <a data-fancybox="gallery" href="https://i.pinimg.com/236x/37/8a/a1/378aa1333e30e3f00a27ca127b492865.jpg">
+        <img src="https://i.pinimg.com/236x/37/8a/a1/378aa1333e30e3f00a27ca127b492865.jpg" />
+    </div>
+    <div class="item">
+      <a data-fancybox="gallery" href="https://i.pinimg.com/236x/c8/b3/f4/c8b3f42b0c55ca93de6e52c5ed5ca4fc.jpg">
+        <img src="https://i.pinimg.com/236x/c8/b3/f4/c8b3f42b0c55ca93de6e52c5ed5ca4fc.jpg" />
+    </div>
+    <div class="item">
+      <a data-fancybox="gallery" href="https://i.pinimg.com/236x/7a/64/be/7a64beebfd4e31d712b36a176df66b86.jpg">
+        <img src="https://i.pinimg.com/236x/7a/64/be/7a64beebfd4e31d712b36a176df66b86.jpg" />
+    </div>
+    <div class="item">
+      <a data-fancybox="gallery" href="https://i.pinimg.com/236x/56/3c/a6/563ca6bea356626ecaab9228987923cc.jpg">
+        <img src="https://i.pinimg.com/236x/56/3c/a6/563ca6bea356626ecaab9228987923cc.jpg" />
+    </div>
+    <div class="item">
+      <a data-fancybox="gallery" href="https://i.pinimg.com/236x/77/c7/68/77c7684b52315f52fd8662203566c7c8.jpg">
+        <img src="https://i.pinimg.com/236x/77/c7/68/77c7684b52315f52fd8662203566c7c8.jpg" />
+    </div>
+    <div class="item">
+      <img src="https://i.pinimg.com/236x/9f/c6/c5/9fc6c5cf79e84dd0ab41e9f98156d68e.jpg" />
+    </div>
+  </div>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script>
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 3,
+        },
+        1000: {
+          items: 5,
+        },
+      },
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input id="input-in" style="float: left" type="text" value="" placeholder="Write the text here. ">
+    <button id="button" style="float: left;">Go</button>
+
+    <input id="input-in2" style="float: left" type="text" value="" placeholder="Write the text here. ">
+    <button id="button2" style="float: left;">Go</button>
+
+
+    <input id="input-in3" style="float: left" type="text" value="" placeholder="Write the text here. ">
+    <button id="button3" style="float: left;">Go</button>
+    <br><br>
+    <input id="input-in4" style="float: left" type="text" value="" placeholder="Write the text here. ">
+    <button id="button4" style="float: left;">Go</button>
+
+    <input id="input-in5" style="float: left" type="text" value="" placeholder="Write the text here. ">
+    <button id="button5" style="float: left;">Go</button>
+
+
+    <input id="input-in6" style="float: left" type="text" value="" placeholder="Write the text here. ">
+    <button id="button6" style="float: left;">Go</button>
+    <br><br>
+
+    <table border="1" style="font-size:18px ;">
+        <tr>
+            <td>Name;</td>
+            <td>Age;</td>
+            <td>Address;</td>
+        </tr>
+        <tr>
+            <td>
+                <div id="outport" style="float: left; width: 200px; height: 19px; border: solid 1px grey; color: gray; font-size: 13px; font-weight: 400;padding-right: 2px;">
+                </div>
+            </td>
+            <td>
+                <div id="outport2" style="float: left; width: 200px; height: 19px; border: solid 1px grey; color: gray; font-size: 13px; font-weight: 400;padding-right: 2px;">
+                </div>
+            </td>
+            <td>
+                <div id="outport3" style="float: left; width: 200px; height: 19px; border: solid 1px grey; color: gray; font-size: 13px; font-weight: 400;padding-right: 2px;">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="outport4" style="float: left; width: 200px; height: 19px; border: solid 1px grey; color: gray; font-size: 13px; font-weight: 400;padding-right: 2px;">
+                </div>
+            </td>
+            <td>
+                <div id="outport5" style="float: left; width: 200px; height: 19px; border: solid 1px grey; color: gray; font-size: 13px; font-weight: 400;padding-right: 2px;">
+                </div>
+            </td>
+            <td>
+                <div id="outport6" style="float: left; width: 200px; height: 19px; border: solid 1px grey; color: gray; font-size: 13px; font-weight: 400;padding-right: 2px;">
+                </div>
+            </td>
+        </tr>
+        </tr>
+    </table>
+    <script>
+        var inputIn = document.getElementById("input-in");
+        var button = document.getElementById("button");
+        var outport = document.getElementById("outport");
+
+        button.onclick = function() {
+            var text = inputIn.value;
+            inputIn.value = "";
+            outport.innerHTML = text;
+        }
+        var inputIn2 = document.getElementById("input-in2");
+        var button2 = document.getElementById("button2");
+        var outport2 = document.getElementById("outport2")
+
+        button2.onclick = function() {
+            var text = inputIn2.value;
+            inputIn2.value = "";
+            outport2.innerHTML = text;
+        }
+        var inputIn3 = document.getElementById("input-in3");
+        var button3 = document.getElementById("button3");
+        var outport3 = document.getElementById("outport3")
+
+        button3.onclick = function() {
+            var text = inputIn3.value;
+            inputIn3.value = "";
+            outport3.innerHTML = text;
+        }
+        var inputIn4 = document.getElementById("input-in4");
+        var button4 = document.getElementById("button4");
+        var outport4 = document.getElementById("outport4")
+
+        button4.onclick = function() {
+            var text = inputIn4.value;
+            inputIn4.value = "";
+            outport4.innerHTML = text;
+        }
+        var inputIn5 = document.getElementById("input-in5");
+        var button5 = document.getElementById("button5");
+        var outport5 = document.getElementById("outport5")
+
+        button5.onclick = function() {
+            var text = inputIn5.value;
+            inputIn5.value = "";
+            outport5.innerHTML = text;
+        }
+        var inputIn6 = document.getElementById("input-in6");
+        var button6 = document.getElementById("button6");
+        var outport6 = document.getElementById("outport6")
+
+        button6.onclick = function() {
+                var text = inputIn6.value;
+                inputIn6.value = "";
+                outport6.innerHTML = text;
+                $(document).ready(function() {
+                            $("#but1").click(function() {
+                                $("input:text").val("");
+                            });
+                            //$("#but1").click(function() {
+                            //alert('clicked!');       }
+    </script>
+</body>
+
+</html>

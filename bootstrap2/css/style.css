@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.p_lorem {
+  font-size: 18px;
+  width: 50%;
+  height: auto;
+}
+
+.wrap_jumb {
+  position: relative;
+  top: 0px;
+  left: 300px;
+}
+
+.nav__active {
+  position: relative;
+  top: 440px;
+  left: 600px;
+  ;
+
+}

@@ -1,0 +1,21 @@
+body {
+  font-size: 20px;
+}
+body div {
+  color: red;
+}
+body div p {
+  background-color: royalblue;
+}
+body div p h1 {
+  font-size: 30px;
+}
+body div p h1 h2 {
+  font-size: 20px;
+}
+body div p h1 h2:hover {
+  transition: 3s all;
+  color: green;
+  background-color: sienna;
+  font-size: 10px;
+}
